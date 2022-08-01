@@ -1,0 +1,69 @@
+*{
+    margin:0px;
+    border:0px;
+    font-family: "Allerta", sans-serif;
+}
+body{
+    margin:0px;
+    border:0px;
+    
+}
+nav #navbarMonstera {
+    display: flex;
+}
+
+div #navMid {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h1#monstera {
+    margin-top: 6.5rem;
+    font-size: 6.8rem;
+}
+
+div#midWholePart1 {
+    margin-left: 2rem;
+    position: absolute;
+    margin-right: 40rem;
+}
+
+div#midWholePart13 {
+    display: flex;
+    padding: 0rem;
+    margin-top: 0rem;
+}
+
+#imgMain {
+    left: 63%;
+    position: absolute;
+    top: 3rem;
+    height: 44rem;
+    width: 39rem;
+}
+
+div#midWhole {
+    position: relative;
+    margin-top: -2rem;
+}
+
+#midWholePart11 > div > ul > li::marker:first-child{
+    width: 13px;
+    height: 14px;
+    background: red;
+    margin: 11px;
+    border-radius: 89%;
+    box-shadow: inset 0px 0px 0px 3px white;
+    border: 1px solid red;
+    position: absolute;
+} 
+
+h1#monstera::after {
+
+    border: 1rem solid black;
+    left:10px;
+    right: 10px;
+    width: 10 px;
+    height: 10px;
+}
